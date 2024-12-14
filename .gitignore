@@ -1,3 +1,6 @@
 fetcher_env/
 .env
 services/__pycache__/
+APIs/graphql/.env
+APIs/graphql/__pycache__/
+APIs/graphql/venv

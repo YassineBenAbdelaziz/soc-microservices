@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+httpie
+strawberry-graphql
+sqlalchemy
+psycopg2
+python-dotenv
