@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  get-data-microservice:
+    image: get-data-microservice:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    environment:
+      NODE_ENV: production
+      # ...other environment variables...
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
