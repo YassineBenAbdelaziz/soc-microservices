@@ -1,0 +1,5 @@
+@soap_api_HostAddress = http://localhost:5112
+
+
+GET {{soap_api_HostAddress}}/Service.asmx?wsdl
+
